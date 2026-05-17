@@ -2,8 +2,6 @@
 
 An Obsidian plugin to track your energy levels and activities across 6 daily time slots over 30 days. All data is stored locally in your Vault — no sync, no cloud, no data loss on restart.
 
-![Plugin screenshot](screenshot.png)
-
 ---
 
 ## How It Works

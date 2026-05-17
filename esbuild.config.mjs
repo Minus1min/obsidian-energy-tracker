@@ -1,6 +1,6 @@
 import esbuild from "esbuild";
 import process from "process";
-import builtins from "builtin-modules";
+import { builtinModules } from "module";
 
 const prod = process.argv[2] === "production";
 
@@ -8,7 +8,7 @@ const buildOptions = {
   banner: { js: "/* 30日能量记录 Obsidian Plugin */" },
   entryPoints: ["main.ts"],
   bundle: true,
-  external: ["obsidian", "electron", ...builtins],
+  external: ["obsidian", "electron", ...builtinModules],
   format: "cjs",
   target: "es2016",
   logLevel: "info",
