@@ -33,7 +33,7 @@ Open **Settings → 30-Day Energy Log** to:
 
 ## Installation
 
-### From Obsidian Community Plugins *(coming soon)*
+### From Obsidian Community Plugins
 
 Search for **"30-Day Energy Log"** in Settings → Community Plugins.
 
