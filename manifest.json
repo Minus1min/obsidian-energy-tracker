@@ -1,7 +1,7 @@
 {
   "id": "energy-tracker",
   "name": "30-Day Energy Log",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "minAppVersion": "0.15.0",
   "description": "Track your energy levels and activities across 6 daily time slots for 30 days. Data is stored locally in your Vault. Supports Chinese and English.",
   "author": "Miranda",
