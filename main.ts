@@ -221,6 +221,9 @@ class EnergyTrackerView extends ItemView {
     } else {
       this.startDate = new Date();
       this.startDate.setHours(0, 0, 0, 0);
+      // Persist immediately so the start date never drifts on subsequent opens
+      this.plugin.pluginData.startDate = this.toISO(this.startDate);
+      await this.plugin.savePluginData();
     }
     this.render();
   }

@@ -229,6 +229,8 @@ var EnergyTrackerView = class extends import_obsidian.ItemView {
       } else {
         this.startDate = new Date();
         this.startDate.setHours(0, 0, 0, 0);
+        this.plugin.pluginData.startDate = this.toISO(this.startDate);
+        yield this.plugin.savePluginData();
       }
       this.render();
     });
